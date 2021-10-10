@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "datalake"
+    organization = "data-analytics-rocketchat"
 
     workspaces {
       name = "gh-actions-demo"
