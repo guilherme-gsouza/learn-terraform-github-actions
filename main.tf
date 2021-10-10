@@ -15,7 +15,7 @@ terraform {
     organization = "data-analytics-rocketchat"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "datalake"
     }
   }
 }
